@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.29.25",
@@ -28,6 +29,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "cypress": "^12.17.1",
     "openapi-typescript": "^6.3.4"
   }
 }
