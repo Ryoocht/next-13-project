@@ -7,5 +7,3 @@ function Hydrate(props: HydrateProps) {
 }
 
 export default Hydrate;
-
-/* https://blog.gogrow.dev/setting-up-react-query-in-your-next-js-13-app-e8edea0d20cc */
