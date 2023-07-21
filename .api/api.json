@@ -6,6 +6,12 @@
       "source": "https://api.development.180markets.link/api/swagger-json",
       "integrity": "sha512-qUXKZoPxVVJMOMXkJNmW3wWgk6mwpJ4pHJvgNPcNgBMpNfnosS1CCCZPped05bT0YBWnH1JfpvWK6XE0DUIrAw==",
       "installerVersion": "6.1.0"
+    },
+    {
+      "identifier": "test",
+      "source": "https://api.development.180markets.link/api/swagger-json",
+      "integrity": "sha512-qUXKZoPxVVJMOMXkJNmW3wWgk6mwpJ4pHJvgNPcNgBMpNfnosS1CCCZPped05bT0YBWnH1JfpvWK6XE0DUIrAw==",
+      "installerVersion": "6.1.0"
     }
   ]
 }

@@ -18,10 +18,10 @@ const LoginInput = () => {
   });
 
   /* open api */
-  const { mutate: loginWithApi } = useMutation({
-    mutationFn: (values: AuthAdminLoginFirstStepBodyParam) =>
-      AuthService.loginWithApi({ ...values }),
-  });
+  // const { mutate: loginWithApi } = useMutation({
+  //   mutationFn: (values: AuthAdminLoginFirstStepBodyParam) =>
+  //     AuthService.loginWithApi({ ...values }),
+  // });
 
   const { data: userData } = useQuery({
     queryKey: ["user"],
@@ -53,7 +53,7 @@ const LoginInput = () => {
         className="text-black"
       />
       <button onClick={() => login(userInput)}>SUBMIT</button>
-      <button onClick={() => loginWithApi(userInput)}>SUBMIT WITH API</button>
+      {/* <button onClick={() => loginWithApi(userInput)}>SUBMIT WITH API</button> */}
       <div>
         <p>
           Result: {data?.countryCode} {data?.number}
