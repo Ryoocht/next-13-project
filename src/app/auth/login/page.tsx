@@ -3,8 +3,8 @@ import Hydrate from "@/components/hydrate-client";
 import LoginInput from "@/components/login-input";
 import getQueryClient from "@/lib/get-query-client";
 import { dehydrate } from "@tanstack/react-query";
-import { components, paths } from "../../../../path/to/my/schema";
 import { AuthService } from "@/service/auth-service";
+import { components, paths } from "../../../../path/to/my/schema";
 
 export type UserArgs =
   paths["/api/v1/auth/admin/login/start"]["post"]["requestBody"]["content"]["application/json"];

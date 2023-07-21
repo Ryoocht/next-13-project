@@ -10,6 +10,7 @@
     "cypress": "cypress open"
   },
   "dependencies": {
+    "@api/backend": "file:.api/apis/backend",
     "@tanstack/react-query": "^4.29.25",
     "@tanstack/react-query-devtools": "^4.29.25",
     "@types/node": "20.4.2",
